@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">StarWarsProject</string>
+    <string name="hint_edit_text">Find people, starship or planet</string>
+    <string name="btn_search">Search</string>
 </resources>
