@@ -1,13 +1,13 @@
 package pa.chan.starwarsproject.features.home.data.dto
 
 data class StarWarsPeopleDto(
-    val result: List<PeopleDto>
+    val results: List<PeopleDto?>
 )
 
 data class StarWarsPlanetsDto(
-    val result: List<PlanetsDto>
+    val results: List<PlanetsDto?>
 )
 
 data class StarWarsStarshipsDto(
-    val result: List<StarshipsDto>
+    val results: List<StarshipsDto?>
 )

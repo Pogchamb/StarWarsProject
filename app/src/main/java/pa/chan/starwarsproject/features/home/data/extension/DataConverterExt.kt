@@ -7,10 +7,10 @@ import pa.chan.starwarsproject.features.home.domain.model.PeopleModel
 import pa.chan.starwarsproject.features.home.domain.model.PlanetsModel
 import pa.chan.starwarsproject.features.home.domain.model.StarshipsModel
 
-fun PeopleDto.toModel(): PeopleModel = PeopleModel(
+fun PeopleDto.toModel(starshipList: List<String?>?): PeopleModel = PeopleModel(
     name = this.name,
     gender = this.gender,
-    starships = this.starships
+    starships = starshipList
 )
 
 fun PlanetsDto.toModel(): PlanetsModel = PlanetsModel(

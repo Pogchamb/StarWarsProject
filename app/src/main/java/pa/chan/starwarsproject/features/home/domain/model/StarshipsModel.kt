@@ -4,5 +4,5 @@ data class StarshipsModel(
     val name: String?,
     val model: String?,
     val manufacturer: String?,
-    val passengers: Long?
-)
+    val passengers: String?
+): StarWarsUnitModel
