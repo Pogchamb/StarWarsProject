@@ -4,5 +4,5 @@ data class StarshipsDto(
     val name: String?,
     val model: String?,
     val manufacturer: String?,
-    val passengers: Long?
+    val passengers: String?
 )

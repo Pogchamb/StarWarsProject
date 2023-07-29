@@ -1,9 +1,9 @@
 package pa.chan.starwarsproject.features.home.domain
 
-import pa.chan.starwarsproject.features.home.domain.model.StarWarsUnitsModel
+import pa.chan.starwarsproject.features.home.domain.model.StarWarsUnitModel
 
 interface HomeRepository {
 
-    suspend fun getUnits(): StarWarsUnitsModel
+    suspend fun getStarWarsUnit(name: String, type: String): StarWarsUnitModel?
 
 }

@@ -13,7 +13,7 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 class AppModule {
-    private val url = "https://swapi.dev/api"
+    private val url = "https://swapi.dev/api/"
 
     @Provides
     @Singleton
